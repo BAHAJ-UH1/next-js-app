@@ -48,3 +48,24 @@ pnpm create next-app --example with-jest with-jest-app
 ```bash
 npm test
 ```
+
+
+Voici le cycle de travail standard que nous avons reproduit ensemble, et qui est utilisé par tous les développeurs professionnels :
+
+On part de main (le code qui fonctionne).
+
+On crée une branche (ma-nouvelle-fonctionnalite). C'est notre espace de travail isolé.
+
+On modifie le code (votre commentaire dans le README).
+
+On pousse la branche sur GitHub (git push).
+
+On crée la Pull Request : On demande à GitHub de comparer notre branche avec main.
+
+GitHub fait les vérifications (il lance vos Actions).
+
+On fusionne (Merge) si tout est bon.
+
+On supprime la branche devenue inutile.
+
+
